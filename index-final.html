@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/index-final.css">
+    <title>Home - 50 Fluffs of Grey Animal Rescue</title>
+</head>
+
+<body>
+    <header>
+        <div> <img src="images/pawprint-colour.png" alt="Icon" class="icon" title="Icon"> </div>
+        <span class="header-text">50 Fluffs of Grey <br>
+            <span style="color: #1989A0; font-weight: normal;">Animal Sanctuary</span> </span>
+    </header>
+    <div class="wrapper">
+        <nav id="navbar">
+            <div id="nav-desktop"> <a href="#home" class="active">Home</a> <a href="#whoweare">Who We Are</a> <a href="#adoptions">Adoptions</a> <a href="#donations">Donations</a> <a href="#contact">Contact Us</a> <a href="#blogs">Blogs</a> </div>
+            <div id="nav-mobile"> <a href="#home" class="active">Home</a> <a href="#adoptions">Adoptions</a> <a href="#donations">Donations</a> <a href="#contact">Contact Us</a> </div>
+        </nav>
+        <main>
+            <div class="hero-block"><img src="images/55-558838_dogs-and-cats-png-retinol-cream-2-5-organic.jpg" alt="Animals Hero Image" title="Animals Hero Image" class="image"></div>
+            <h1>Finding Furrever Homes For Our Furry Mates</h1>
+            <div>
+                <div class="box-blue hover-image">
+                    <h3>Cats for Adoption</h3>
+                </div>
+                <div class="box-grey hover-image">
+                    <h3>Dogs for Adoption</h3>
+                </div>
+                <div class="box-teal hover-image">
+                    <h3>Other Pets for Adoption</h3>
+                </div>
+            </div>
+            <section>
+                <h2>Our mission</h2>
+                <p> We are a small animal welfare charity located in Sydney’s Western Suburbs who care deeply about our furry friends who are not able to care for themselves. It is our mission to ensure that the homeless, abandoned, neglected and abused have a safe haven to heal and learn to love and trust again so they can find their very own safe, loving and furrever home.<br>
+                    <br>
+                    We have many programs designed to create nurturing environments for these beautiful little souls, not just in our care but to improve the lives of those living in the streets. Please read more about how you can help with our <a href="#" target="_blank">Foster to Adopt and TNR iniatives here.</a><br>
+                    <br>
+                    Our amazing network of foster carers and volunteers have been working together since 2018, saving one animal at a time.<br>
+                    <br>
+                    <br>
+                    <span class="callout-text">To date, we’ve rescued and re-homed
+                        more than 1700 companion animals!</span>
+                </p>
+            </section>
+            <div class="row">
+                <div>&nbsp;</div>
+                <div>
+                    <div class="image-cols hover-image"> <img src="images/readhead-cat-sitting-700.jpg" alt="Ginger Cat" style="width: 100%" title="Ginger Cat">
+                        <h4>Garfield (m) 8y/o</h4>
+                        <h5>Meet handsome Garfield who has just turned 8 years old. He is shy at first but loves cuddles and will be a lap cat in no time at all!</h5>
+                    </div>
+                    <div class="image-cols hover-image"> <img src="images/closeup-shot-curious-pug-gray-wall-700.jpg" alt="Puggy" style="width: 100%" title="Puggy">
+                        <h4>Puggy (m) 3y/o</h4>
+                        <h5>Puggy Brewster is the goodest boy. He's known to love playing in blanket forts with kids and other pets! He's the family pet!</h5>
+                    </div>
+                    <div class="image-cols hover-image"> <img src="images/hedgehog-700.jpg" alt="Sonic" style="width: 100%" title="Sonic">
+                        <h4>Sonic (f) 1y/o</h4>
+                        <h5>Sonic is the cutest little thing you'll ever see omg she's so cute you'll want to cuddle her all the time - but watch out for those spikes!</h5>
+                    </div>
+                    <div class="image-cols hover-image"> <img src="images/pretty-girl-embarcing-cat-dog-700.jpg" alt="Family" style="width: 100%" title="Family">
+                        <h4>Jack &amp; Jill</h4>
+                        <h5>Jack the cat and Jill the dog are a bonded pair that need to be a double adoption. Please contact us for more info on this gorgeous duo.</h5>
+                    </div>
+                </div>
+                <div>&nbsp;</div>
+            </div>
+        </main>
+    </div>
+    <footer><span class="hover-image"><img src="images/social-fb.png" alt="FB Logo" title="Facebook"> </span> <span class="hover-image"><img src="images/social-insta.png" alt="Insta Logo" title="Instagram"> </span> <span class="hover-image"><img src="images/social-yt.png" alt="YouTube Logo" title="YouTube"> </span><br>
+        <br>
+        © Iris Grey 2021
+    </footer>
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>
